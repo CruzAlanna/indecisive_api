@@ -10,4 +10,7 @@ Rails.application.routes.draw do
 
   get 'partners' => 'partners#index'
   get 'partners/:id' => 'partners#show'
+
+  get 'restaurants' => 'restaurants#index'
+  get 'restaurants/:id' => 'restaurants#show'
 end
