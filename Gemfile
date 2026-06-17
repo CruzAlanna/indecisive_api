@@ -22,6 +22,8 @@ gem "jbuilder"
 
 gem 'rack-cors' #For rendering the data using React frontend
 
+gem "dotenv-rails" #Automatically run the .env file (db stored on Neon)
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
